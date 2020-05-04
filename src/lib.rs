@@ -12,7 +12,7 @@ mod unicode_funcs;
 
 pub use crate::collection::{FontCollection, FontFamily, FontRef};
 pub use crate::hb_layout::layout_run;
-pub use crate::session::LayoutSession;
+pub use crate::session::{GlyphInfo, LayoutRangeIter, LayoutRun, LayoutSession, RunIter};
 
 #[derive(Clone)]
 pub struct TextStyle {
